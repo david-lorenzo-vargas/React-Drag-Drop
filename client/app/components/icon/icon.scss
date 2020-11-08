@@ -1,0 +1,32 @@
+.icon {
+  width: 100%;
+  padding-right: 15px;
+
+  &--theme-excel {
+    svg {
+      fill: rgb(47, 146, 1);
+      width: 50px;
+    }
+  }
+
+  &--theme-pdf {
+    svg {
+      fill: rgb(241, 8, 120);
+      width: 50px;
+    }
+  }
+
+  &--theme-jpeg {
+    svg {
+      fill: rgb(253, 173, 45);
+      width: 50px;
+    }
+  }
+
+  &--theme-word {
+    svg {
+      fill: rgb(12, 165, 225);
+      width: 50px;
+    }
+  }
+}
