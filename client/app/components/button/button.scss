@@ -1,0 +1,20 @@
+.button {
+  width: 100%;
+  padding-left: 15px;
+  cursor: pointer;
+
+  &--theme-green {
+    svg {
+      fill: rgb(50, 211, 120);
+      width: 17px;
+    }
+  }
+
+  &--theme-red {
+    svg {
+      fill: rgb(241, 76, 74);
+      width: 17px;
+    }
+  }
+
+}
