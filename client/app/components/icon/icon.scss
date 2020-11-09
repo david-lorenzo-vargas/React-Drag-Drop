@@ -29,4 +29,11 @@
       width: 50px;
     }
   }
+
+  &--theme-failure {
+    svg {
+      fill: rgb(241, 76, 74);
+      width: 50px;
+    }
+  }
 }
