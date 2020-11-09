@@ -25,7 +25,7 @@ class App extends React.Component {
   getIconType(type) {
     const wordExtension = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
     const excelExtension = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
-    let iconType = '';
+    let iconType;
 
     if (type === 'application/pdf') {
       iconType = 'pdf';
@@ -105,18 +105,6 @@ class App extends React.Component {
     });
   }
 
-  // create a spinner component - DONE
-  // render the spinner component when the file is not converted yet - DONE
-  // fix the bugs (name, icon etc) - DONE
-  // when I am hovering the file item replace the tick icon with a remove
-  // button - DONE
-  // remove the file when I click on the delete button. - DONE
-  // show an error item if the file is not supported (check MIME type from props) - DONE
-  // have a read to web workers: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
-
-  // <InputFile types={['jpg', 'png']} />
-  // <InputFileItem done={done} name={name} extension={extension} />
-
   handleOnChange(event) {
     const { files } = this.state;
 
@@ -184,7 +172,7 @@ class App extends React.Component {
             return (
               <Row direction="row" key={file.id}>
                 <Column shrink>
-                  <Icon icon={iconType} theme={iconType} />
+                  <Icon icon={supportedFile ? iconType : 'failure'} theme={supportedFile ? iconType : 'failure'} />
                 </Column>
 
                 <Column grow>
