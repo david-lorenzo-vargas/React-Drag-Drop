@@ -10,18 +10,18 @@ If the uploaded file is not a supported file, an error icon together with a mess
 ## Technologies
 HTML, SCSS modules, @keyframes, SVG, React, Base64, Babel, Eslint, Stylelint, Webpack
 
-Upload files<br>
-![drag drop](https://user-images.githubusercontent.com/72414745/99599284-52f12e80-29fb-11eb-869a-fc9be73b3316.jpg)
+## Demo
 
-Loading files<br>
-![drag drop-loading](https://user-images.githubusercontent.com/72414745/99599287-54baf200-29fb-11eb-92b7-9b44996c2611.jpg)
+Drag and drop file to upload
+![drag drop1](https://user-images.githubusercontent.com/72414745/101013493-ac616d80-3564-11eb-8b19-e246a8acbe0a.gif)
 
-Files ready<br>
-![drag drop-ready](https://user-images.githubusercontent.com/72414745/99599289-55538880-29fb-11eb-896f-ea329647c4f6.jpg)
+Browse files in your computer
+![drag drop2](https://user-images.githubusercontent.com/72414745/101013496-ad929a80-3564-11eb-9211-8b49426eeb9e.gif)
 
-Remove files<br>
-![drag drop-remove](https://user-images.githubusercontent.com/72414745/99599290-55538880-29fb-11eb-80e9-48db74227aee.jpg)
+Uploading non supported files
+![drag drop3](https://user-images.githubusercontent.com/72414745/101013499-ae2b3100-3564-11eb-9d73-75a237161609.gif)
 
-No supported file<br>
-![drag drop-no-support](https://user-images.githubusercontent.com/72414745/99599288-54baf200-29fb-11eb-8636-cf6e96372f5b.jpg)
+Removing files
+![drag drop4](https://user-images.githubusercontent.com/72414745/101013501-aec3c780-3564-11eb-9b77-c1fb7c5ef21a.gif)
+
 
