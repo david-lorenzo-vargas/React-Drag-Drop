@@ -8,7 +8,7 @@ You can either drag and drop the file or search the file in your computer. The f
 If the uploaded file is not a supported file, an error icon together with a message will be rendered. Once you have uploaded all the files, you have the option of removing them by clicking the remove button.
 
 ## Technologies
-HTML, SCSS modules, @keyframes, SVG, React, Base64, Babel, Eslint, Stylelint, Webpack
+HTML, SCSS modules, @keyframes, SVG, JavaScript, React, Base64, Babel, Eslint, Stylelint, Webpack
 
 ## Demo
 
